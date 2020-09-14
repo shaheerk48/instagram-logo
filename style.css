@@ -1,0 +1,42 @@
+.instagram {
+    height: 400px ;
+    width: 400px ;
+    position: absolute;
+    border-radius: 25% ;
+    color: black ;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+
+}
+
+.instagram::before {
+    content: "";
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    top: 45px;
+    left: 45px;
+    border: 30px solid white;
+    border-radius: 25%;
+
+}
+
+.instagram::after {
+    content: "";
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 120px;
+    left: 120px;
+    border: 30px solid white;
+    border-radius: 50%;
+}
+
+.instagram div {
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    top: 100px;
+    left: 270px;
+    border-radius: 50%;
+    position: absolute;
+}
